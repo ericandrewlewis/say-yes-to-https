@@ -20,4 +20,4 @@ Over HTTP, a browser sends data in plain text, unencrypted, through the internet
 
 HTTPS adds encryption and server identification on top of HTTP's data transfer model.
 
-Learn more about how HTTPS works, or how to setup HTTPS.
+Learn more [about how HTTPS works](/how-https-works/), or [how to setup HTTPS](/how-to-setup-https/).
