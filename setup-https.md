@@ -6,7 +6,13 @@ permalink: /how-to-setup-https/
 
 To configure a website to serve HTTPS, you will need to modify the web server's configuration. If you don't have access to the configuration, ask your hosting provider how to set up HTTPS.
 
-## Create a private key and SSL certificate
+## SNI support
+
+[Sever Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) is a TLS extension which allows multiple certificates for the same IP address. Older clients (e.g. Internet Explorer on Windows XP) do not support SNI.
+
+Decide whether or not to require SNI, based on client support requirements and the cost of a static IP.
+
+## Get an SSL certificate and private key
 
 A web server needs a private key and an SSL certificate (which includes a public key) to serve HTTPS.
 
@@ -16,7 +22,9 @@ An SSL certificate should be acquired from a trusted certificate authority.
 
 [Let's Encrypt](https://letsencrypt.com) is a new free certificate authority. Public beta opens in December 2015.
 
-## Configure the site to serve HTTP and HTTPS
+## Serve HTTP and HTTPS
+
+Configure your site to serve both HTTP and HTTPS traffic.
 
 Mozilla has an [HTTPS configuration generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) which produces boilerplate for adding HTTPS to various web servers.
 
@@ -37,10 +45,6 @@ Older clients don't support HSTS, so always 301 redirect HTTP requests to the HT
 ## Verify latest server packages
 
 The web server's system kernel and openssl packages should be updated to the latest for performance optimizations.
-
-## Does your server need a unique IP?
-
-If you want to avoid security warnings in some older browsers (e.g. IE 8 Windows XP and similar), you will need a unique IP for your certificate for clients that don't have [SNI support](https://en.wikipedia.org/wiki/Server_Name_Indication).
 
 ## Test your HTTPS
 
