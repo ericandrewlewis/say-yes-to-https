@@ -1,8 +1,9 @@
 <header class="site-header">
 
   <div class="wrapper">
-
+    {% if page.homepage != true %}
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">

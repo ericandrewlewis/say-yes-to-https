@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Setup HTTPS
+title: HTTPS Setup Guide
 permalink: /how-to-setup-https/
 ---
 
