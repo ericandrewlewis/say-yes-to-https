@@ -10,15 +10,15 @@ To configure a website to serve HTTPS, you will need to modify the web server's 
 
 A web server needs a private key and an SSL certificate (which includes a public key) to serve HTTPS.
 
-[SSLMate](https://sslmate.com/) is an easy-to-use, commercial certificate authority.
+An SSL certificate should be acquired from a trusted certificate authority.
 
-[Let's Encrypt](https://letsencrypt.com) is a free certificate authority, currently in beta. Public beta opens in December 2015.
+[SSLMate](https://sslmate.com/) is a nice command-line tool to purchase certificates.
+
+[Let's Encrypt](https://letsencrypt.com) is a new free certificate authority. Public beta opens in December 2015.
 
 ## Configure the site to serve HTTP and HTTPS
 
-Mozilla has an [HTTPS configuration generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) which produces boilerplate for configuring various web servers for HTTPS.
-
-Make sure to serve both HTTP and HTTPS.
+Mozilla has an [HTTPS configuration generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) which produces boilerplate for adding HTTPS to various web servers.
 
 ## Transition content
 
