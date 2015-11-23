@@ -11,4 +11,6 @@ homepage: true
 
 ### [Why should you use HTTPS?](why-use-https/)
 
+### [How HTTPS Works](how-https-works/)
+
 ### [HTTPS Setup Guide](how-to-setup-https/)
