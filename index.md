@@ -1,6 +1,6 @@
 ---
 layout: page
-homepage: true
+slug: homepage
 ---
 
 <h1 class="post-title" style="text-align: center">Say yes to HTTPS</h1>
@@ -9,7 +9,7 @@ homepage: true
 
 ### [What is HTTPS?](what-is-https/)
 
-### [Why should you use HTTPS?](why-use-https/)
+### [Why use HTTPS?](why-use-https/)
 
 ### [How HTTPS Works](how-https-works/)
 
