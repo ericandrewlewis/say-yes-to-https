@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+	{% include head.html %}
 
-  <body class="page-{{ page.slug }}">
+	<body class="page-{{ page.slug }}">
 
-    {% include header.html %}
+		{% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+		<div class="page-content">
+			<div class="wrapper">
+				{{ content }}
+			</div>
+		</div>
 
-    {% include footer.html %}
-
-  </body>
+		{% include footer.html %}
+		<script>
+		(function() {
+			var menu;
+			/**
+			 * Set the menu's position
+			 */
+			var setMenuStyle = function() {
+				if ( !menu ) {
+					menu = document.querySelector('.site-nav');
+				}
+				var right;
+				if ( window.innerWidth < 800 ) {
+					right = 14;
+				} else {
+					right = ( window.innerWidth - 740 ) / 2;
+				}
+				menu.style.right = right + 'px';
+			}
+			document.addEventListener("DOMContentLoaded", setMenuStyle);
+			window.addEventListener("resize", setMenuStyle);
+		})();
+		</script>
+	</body>
 
 </html>
