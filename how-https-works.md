@@ -2,6 +2,7 @@
 layout: page
 title: How HTTPS Works
 permalink: /how-https-works/
+menu_weight: 20
 ---
 
 HTTPS provides two security features: **server identification** and **encryption**.

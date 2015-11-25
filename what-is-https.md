@@ -2,6 +2,7 @@
 layout: page
 title: What is HTTPS?
 permalink: /what-is-https/
+menu_weight: 1
 ---
 
 HTTP is the original protocol for transferring data across the internet.

@@ -2,6 +2,7 @@
 layout: page
 title: Why use HTTPS?
 permalink: /why-use-https/
+menu_weight: 10
 ---
 
 * SEO. [Google uses HTTPS as a ranking signal](http://googlewebmastercentral.blogspot.com/2014/08/https-as-ranking-signal.html).
