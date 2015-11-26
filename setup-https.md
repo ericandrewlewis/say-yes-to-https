@@ -21,7 +21,7 @@ An SSL certificate should be acquired from a trusted certificate authority.
 
 [SSLMate](https://sslmate.com/) is a nice command-line tool to purchase certificates.
 
-[Let's Encrypt](https://letsencrypt.com) is a new free certificate authority. Public beta opens in December 2015.
+[Let's Encrypt](https://letsencrypt.org) is a new free certificate authority. Public beta opens in December 2015.
 
 ## Serve HTTP and HTTPS
 
