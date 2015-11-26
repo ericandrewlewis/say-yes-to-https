@@ -27,7 +27,7 @@ It does not protect a website from other security vulnerabilities. If a website 
 
 Serving a site over HTTPS comes with extra benefits.
 
-* SEO. [Google uses HTTPS as a ranking signal](http://googlewebmastercentral.blogspot.com/2014/08/https-as-ranking-signal.html).
+* SEO. [Google uses HTTPS as a ranking signal](https://googleonlinesecurity.blogspot.com/2014/08/https-as-ranking-signal_6.html).
 * Speed. HTTP/2 can deliver your website to browsers quicker. HTTP/2 can only be used with HTTPS.
 * Data encryption security. Passive attackers cannot eavesdrop on conversations.
 * Server identification. Man-in-the-middle attackers cannot impersonate a website to a user.
