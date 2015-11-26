@@ -31,7 +31,7 @@ Mozilla has an [HTTPS configuration generator](https://mozilla.github.io/server-
 
 ## Transition content
 
-If you're migrating a site that was previously serving over HTTP, you probably have a lot of embedded content (images, javascript files, stylesheets). References to this content may be hardcoded in a file or in a database, e.g. `Here's a piceture from our 2006 trip to Joshua Tree! <img src="http://example.com/image.jpg">`
+If you're migrating a site that was previously serving over HTTP, you probably have a lot of embedded content (images, javascript files, stylesheets). References to this content may be hardcoded in a file or in a database, e.g. `Here's a picture from our 2006 trip to Joshua Tree! <img src="http://example.com/image.jpg">`
 
 Change these references to load over `https`. The secure version is always preferred, and [the protocol relative URL is an anti-pattern](http://www.paulirish.com/2010/the-protocol-relative-url/).
 
