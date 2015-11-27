@@ -6,7 +6,7 @@ Contributions are welcome, please open an issue.
 
 ## Developing the site locally
 
-Install [Jekyll](http://jekyllrb.com/).
+Install [Jekyll](https://jekyllrb.com/).
 
 Run the local web server.
 
