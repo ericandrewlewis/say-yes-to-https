@@ -23,7 +23,7 @@ An SSL certificate should be acquired from a trusted certificate authority.
 
 ## Serve HTTP and HTTPS
 
-Configure your site to serve both HTTP and HTTPS traffic.
+Configure your site to serve both HTTP and HTTPS traffic. Although HTTP is insecure, clients may look for your website over this protocol, e.g. a user typing in `http://yoursite.com` into their browser. We'll take steps to make sure these requests are upgraded to the secure version, but we don't want to break browsing experiences by not serving HTTP at all.
 
 Mozilla has an [HTTPS configuration generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) which produces boilerplate for adding HTTPS to various web servers.
 
