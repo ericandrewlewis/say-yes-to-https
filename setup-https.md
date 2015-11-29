@@ -15,7 +15,7 @@ Sever Name Indication (SNI) allows a client to connect to different sites hosted
 
 A web server needs a private key and a TLS certificate (which includes a public key) to serve HTTPS.
 
-An TLS certificate should be acquired from a trusted certificate authority.
+A TLS certificate should be acquired from a trusted certificate authority.
 
 [SSLMate](https://sslmate.com/) is a nice command-line tool to purchase certificates.
 
