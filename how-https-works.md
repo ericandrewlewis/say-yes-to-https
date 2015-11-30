@@ -7,7 +7,7 @@ menu_weight: 20
 
 HTTPS provides two security features: **server identification** and **encryption**.
 
-**Server identification** ensures that the user makes an authentic connection to the real website, and not a man-in-the-middle impersonating the website. Server identification is verified with an **SSL certificate** and **public key encryption**.
+**Server identification** ensures that a user only connects to a website if it can prove to be the one it claims. This means a man-in-the-middle attacker cannot impersonate the website. Server identification is verified with an **SSL certificate** and **public key encryption**.
 
 A **certificate authority** (CA) validates that an organization has ownership of a domain, and then issues an SSL certificate for the domain.
 
