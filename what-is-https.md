@@ -28,9 +28,11 @@ It does not protect a website from other security vulnerabilities. If a website 
 Serving a site over HTTPS comes with extra benefits.
 
 * SEO. [Google uses HTTPS as a ranking signal](https://googleonlinesecurity.blogspot.com/2014/08/https-as-ranking-signal_6.html).
-* Speed. HTTP/2 can deliver your website to browsers quicker. HTTP/2 can only be used with HTTPS.
+* Speed. HTTP/2 can deliver your website to browsers quicker. HTTP/2 is only used with HTTPS.
 * Data encryption security. Passive attackers cannot eavesdrop on conversations.
 * Server identification. Man-in-the-middle attackers cannot impersonate a website to a user.
 * [New browser features are limited to secure sites](https://www.chromium.org/Home/chromium-security/prefer-secure-origins-for-powerful-new-features) and [capabilities will be deprecated for non-secure sites](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/).
+
+Make sure to serve the _entire_ site with HTTPS, including all pages, resources, and AJAX requests. Making any plaintext HTTP connection allows an attacker to read and modify the contents of the transmission. Encrypting only sensitive transmissions instantly flags them as sensitive, making them targets.
 
 Learn [how HTTPS works](/how-https-works/), and [setup HTTPS](/how-to-setup-https/).
