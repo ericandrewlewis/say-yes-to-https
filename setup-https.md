@@ -39,7 +39,7 @@ HTTP Strict Transport Security (HSTS) is a mechanism to force users to connect t
 
 ## Add 301 redirects from HTTP to HTTPS
 
-Older clients don't support HSTS, so always 301 redirect HTTP requests to the HTTPS version. See configuratione examples for [NGINX](https://serverfault.com/questions/67316/in-nginx-how-can-i-rewrite-all-http-requests-to-https-while-maintaining-sub-dom/337893#337893) and [Apache](https://www.sslshopper.com/apache-redirect-http-to-https.html).
+Older clients don't support HSTS, so always 301 redirect HTTP requests to the HTTPS version. See configuration examples for [NGINX](https://serverfault.com/questions/67316/in-nginx-how-can-i-rewrite-all-http-requests-to-https-while-maintaining-sub-dom/337893#337893) and [Apache](https://www.sslshopper.com/apache-redirect-http-to-https.html).
 
 ## Verify latest server packages
 
