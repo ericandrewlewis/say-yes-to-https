@@ -11,11 +11,11 @@ To configure a website to serve HTTPS, you will need to modify the web server's 
 
 Sever Name Indication (SNI) allows a client to connect to different sites hosted on a single IP address. Most web hosts only work with SNI by default, so supporting older clients that don't support SNI (e.g. Internet Explorer on Windows XP) is an extra configuration step. [Learn more about SNI](https://https.cio.gov/sni/), and decide whether or not to support these clients.
 
-## Get an SSL certificate and private key
+## Get a certificate and private key
 
-A web server needs a private key and an SSL certificate (which includes a public key) to serve HTTPS.
+A web server needs a private key and a certificate (which includes a public key) to serve HTTPS.
 
-An SSL certificate should be acquired from a trusted certificate authority.
+A certificate should be acquired from a trusted certificate authority.
 
 [SSLMate](https://sslmate.com/) is a nice command-line tool to purchase certificates.
 
