@@ -5,7 +5,7 @@ permalink: /how-to-setup-https/
 menu_weight: 40
 ---
 
-To configure a website to serve HTTPS, you will need to modify the web server's configuration. If you don't have access to the configuration, ask your hosting provider how to set up HTTPS.
+To configure a website to serve HTTPS, you will need to modify the web server's configuration. If you don't have access to the configuration, talk to your hosting provider and [read their HTTPS documentation](/web-host-https-documentation/).
 
 ## Decide on SNI support
 
