@@ -27,11 +27,11 @@ Configure your site to serve both HTTP and HTTPS traffic. Although HTTP is insec
 
 Mozilla has an [HTTPS configuration generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) which produces boilerplate for adding HTTPS to various web servers.
 
-## Transition content
+## Transition embedded resources
 
-If you're migrating a site that was previously serving over HTTP, you probably have a lot of embedded content (images, javascript files, stylesheets). References to this content may be hardcoded in a file or in a database, e.g. `Here's a picture from our 2006 trip to Joshua Tree! <img src="http://example.com/image.jpg">`
+If you're upgrading a site from HTTP to HTTPS, there's probably a lot of embedded resources: images, javascript files, stylesheets, even AJAX calls. References to this content may be hardcoded in a file or in a database, e.g. `Here's a picture from our 2006 trip to Joshua Tree! <img src="http://example.com/image.jpg">`.
 
-Change these references to load over `https`. The secure version is always preferred, and [the protocol relative URL is an anti-pattern](https://www.paulirish.com/2010/the-protocol-relative-url/).
+Change every embedded resource to load over `https`. The secure version is always preferred, and [the protocol relative URL is an anti-pattern](https://www.paulirish.com/2010/the-protocol-relative-url/).
 
 ## Force users to connect over HTTPS
 
