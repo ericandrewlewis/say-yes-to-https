@@ -35,11 +35,11 @@ Change every embedded resource to load over `https`. The secure version is alway
 
 ## Force users to connect over HTTPS
 
+When all embedded resources are loading securely, you can force users to connect to the site over HTTPS.
+
 HTTP Strict Transport Security (HSTS) is a mechanism to force users to connect to a site over HTTPS, and avoid security downgrade attacks. [Read more about HSTS and how to implement it](https://https.cio.gov/hsts/).
 
-## Add 301 redirects from HTTP to HTTPS
-
-Older clients don't support HSTS, so always 301 redirect HTTP requests to the HTTPS version. See configuration examples for [NGINX](https://serverfault.com/questions/67316/in-nginx-how-can-i-rewrite-all-http-requests-to-https-while-maintaining-sub-dom/337893#337893) and [Apache](https://www.sslshopper.com/apache-redirect-http-to-https.html).
+Older clients don't support HSTS. Setup 301 redirects for HTTP requests to the HTTPS version. See configuration examples for [NGINX](https://serverfault.com/questions/67316/in-nginx-how-can-i-rewrite-all-http-requests-to-https-while-maintaining-sub-dom/337893#337893) and [Apache](https://www.sslshopper.com/apache-redirect-http-to-https.html).
 
 ## Verify latest server packages
 
