@@ -15,11 +15,11 @@ Over HTTP, a browser sends data in plain text, unencrypted, through the internet
 
 * An attacker can eavesdrop on communication between a user and the websites they visit. The attacker can construct a profile of the user based on this metadata.
 * Any personal information (login credentials, personal data submitted in forms) shared over HTTP can be stolen by an attacker.
-* An attacker can perform a [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) and impersonate a website, altering a webpage's contents.
+* An attacker can perform a [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) and impersonate a website or alter its contents. [Some ISPs actively do this to inject ads](http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/).
 
 ## HTTPS is Secure HTTP
 
-HTTPS adds **encryption** and **server identification** on top of HTTP's data transfer model.
+HTTPS adds **encryption**, **server identification** and **data integrity** on top of HTTP's data transfer model.
 
 It does not protect a website from other security vulnerabilities. If a website allows user login, a hacker can attempt to crack user accounts with a brute force attack over HTTP or HTTPS.
 
