@@ -19,7 +19,7 @@ A certificate should be acquired from a trusted certificate authority.
 
 [SSLMate](https://sslmate.com/) is a nice command-line tool to purchase certificates.
 
-[Let's Encrypt](https://letsencrypt.org) is a new free certificate authority. Public beta opens in December 2015.
+[Let's Encrypt](https://letsencrypt.org) is a free certificate authority [in beta](https://letsencrypt.org/2015/12/03/entering-public-beta.html). You can [use their client](https://letsencrypt.org/howitworks/) to generate certificates. They are valid for 90 days, so you'll need to renew often. They're actively working on automating the renewal process.
 
 ## Serve HTTP and HTTPS
 
