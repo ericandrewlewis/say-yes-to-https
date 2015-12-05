@@ -9,7 +9,7 @@ To configure a website to serve HTTPS, you will need to modify the web server's 
 
 ## Decide on SNI support
 
-Sever Name Indication (SNI) allows a client to connect to different sites hosted on a single IP address. Most web hosts only work with SNI by default, so supporting older clients that don't support SNI (e.g. Internet Explorer on Windows XP) is an extra configuration step. [Learn more about SNI](https://https.cio.gov/sni/), and decide whether or not to support these clients.
+Server Name Indication (SNI) allows a client to connect to different sites hosted on a single IP address. Most web hosts only work with SNI by default, so supporting older clients that don't support SNI (e.g. Internet Explorer on Windows XP) is an extra configuration step. [Learn more about SNI](https://https.cio.gov/sni/), and decide whether or not to support these clients.
 
 ## Get a certificate and private key
 
