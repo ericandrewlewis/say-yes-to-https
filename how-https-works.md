@@ -9,7 +9,7 @@ HTTPS provides three security features: **server identification**, **data integr
 
 **Server identification** ensures that a user only connects to a website if it can prove to be the one it claims. This means a man-in-the-middle attacker cannot impersonate the website. Server identification is verified with a **certificate** and **public key encryption**.
 
-A **certificate authority** (CA) validates that an organization has ownership of a domain, and then issues a certificate for the domain.
+A site owner requests a certificate from a **certificate authority**, or **CA**, for a domain. The CA confirms the person has control over the domain (through various means), and then issues a certificate.
 
 When a client initiates a connection to an HTTPS server, the server responds with its certificate. A certificate contains a **digital signature** of the issuing CA and the **web server's public key**.
 
